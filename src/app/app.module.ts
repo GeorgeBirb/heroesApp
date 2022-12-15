@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   //Εδώ βλέπει ο <app-root> του index.html και πηγαίνει στο app.component.ts
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
