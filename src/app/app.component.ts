@@ -1,7 +1,5 @@
 // Component για δημιουργία components και OnInit για δημιουργία λογικής κατά την φόρτωση της σελίδας
 import {Component, OnInit} from '@angular/core';
-import {Hero} from "./app.hero";
-import {HEROES} from "./app.mock-heroes";
 
 // https://www.youtube.com/watch?v=dP9RzPBcnqA
 @Component({
@@ -16,9 +14,6 @@ import {HEROES} from "./app.mock-heroes";
 //Η λογική που θα χρησιμοποιήσω στο component app.component.html --> μοιάζει με τα managedBeans του JSF
 export class AppComponent implements OnInit {
   title = 'Tour of Heroes';
-
-  hero: Hero = {id: 1, name: "Windstorm"};
-  heroes = HEROES;
 
   constructor() {
   }

@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 //Εδώ γίνεται το import του app.component.ts
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
+import { HeroesComponent } from './components/heroes/heroes.component';
 
 @NgModule({
   //Εδώ βλέπει ο <app-root> του index.html και πηγαίνει στο app.component.ts
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
