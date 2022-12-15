@@ -9,6 +9,7 @@ import {FormsModule} from "@angular/forms";
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   //Εδώ βλέπει ο <app-root> του index.html και πηγαίνει στο app.component.ts
@@ -16,7 +17,8 @@ import { MessagesComponent } from './messages/messages.component';
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
